@@ -24,10 +24,26 @@ while player is False:
 		print("you choose to quit, quitter.")
 		exit()
 
-	else:
-		print("NOT a tie. Now we can check other conditions")
-		if player =="rock":
-			print("check and see what the computer is, and win or lose")
+	elif player =="rock":
+		if computer == "paper":
+			print("You Lose!", computer, "covers", player, "\n")
+		else:
+			print("You Won!", player, "smashes", computer, "\n")
+
+	elif player =="paper":
+		if computer == "scissors":
+			print("You Lose!", computer, "cuts", player, "\n")
+		else:
+			print("You Won!", player, "covers", computer, "\n")
+
+	elif player =="scissors":
+		if computer == "rock":
+			print("You Lose!", computer, "smashes", player, "\n")
+		else:
+			print("You Won!", player, "cuts", computer, "\n")
+
+
+		
 
 	player = False
 	computer = choices[randint(0,2)]
