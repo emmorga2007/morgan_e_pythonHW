@@ -119,7 +119,7 @@ while player is False:
 
 
 		
-
+	else:
 	player = False
 	computer = choices[randint(0,2)]
 	
