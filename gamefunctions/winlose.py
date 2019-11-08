@@ -3,7 +3,7 @@ from gamefunctions import gamevars
 
 
 def winorlose(status):
-	print("called win or lose", status)
+	print("match result .....", status)
 	print("You", status, "! Would you like to play again?")
 	choice = input("Y / N")
 
