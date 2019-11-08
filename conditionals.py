@@ -8,4 +8,3 @@ elif temperature < 100:
 	print("water is a liquid")
 else:
 	print("water is steam")
-
