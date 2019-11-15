@@ -1,4 +1,4 @@
-# rcok paper scissors game
+# rock paper scissors game
 
 pick your weapon and play against the cmputer - you'll only get a virtual sting if you lose
 
