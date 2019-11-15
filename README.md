@@ -9,5 +9,6 @@ the rules are the same as the classic game
 2. paper beats rock 
 3. scissors beats paper
 
-choose wisely 
+choose wisely, 
+
 built with python 3 
